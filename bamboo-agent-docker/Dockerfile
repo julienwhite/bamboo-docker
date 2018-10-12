@@ -29,7 +29,7 @@ ENV JAVA_HOME=/usr/java/jre1.8.0_161/bin
 # Images
 ENV J_IMG=jre-8u161-linux-x64.tar.gz
 ENV J_URL=http://javadl.oracle.com/webapps/download/AutoDL?BundleId=230532_2f38c3b165be4555a1fa6e98c45e0808
-ENV BA_IMG=atlassian-bamboo-agent-installer-6.4.0.jar
+ENV BA_IMG=atlassian-bamboo-agent-installer-6.6.3.jar
 #---- Commands ----
 USER root
 # create Java Home and Bamboo Agent folder
