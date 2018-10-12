@@ -20,7 +20,7 @@ ENV JAVA_HOME=${JH}/jre1.8.0_161
 # Bamboo
 ENV BH=/home/bamboo-home
 ENV BI=/home/bamboo-install
-ENV BV=atlassian-bamboo-6.4.0
+ENV BV=atlassian-bamboo-6.6.3
 ENV BIP=${BI}/${BV}/atlassian-bamboo/WEB-INF/classes/bamboo-init.properties
 ENV BS_START=${BI}/${BV}/bin/start-bamboo.sh
 #---- Commands ----
