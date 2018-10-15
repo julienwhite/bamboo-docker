@@ -49,4 +49,4 @@ RUN cd $BH; \
 echo $PATH;
 # export Java path and run BA to BS connection
 CMD ["sh", "-c", "export PATH=$JAVA_HOME:$PATH && java -jar $BH/$BA_IMG $BS_URL"]
-# java -jar atlassian-bamboo-agent-installer-6.6.3.jar http://192.168.43.154:8090/agentServer/
+# java -jar atlassian-bamboo-agent-installer-6.6.3.jar http://10.240.20.84:8090/agentServer/
